@@ -13,7 +13,7 @@
     "service_worker": "background.js"
   },
   "chrome_url_overrides": {
-        "newtab": "page/index.html"
+        "newtab": "index.html"
    },
   "permissions": [
     "tabs"
@@ -23,7 +23,7 @@
           "matches": [
             "<all_urls>"
           ],
-          "js": ["lib/jquery.min.js","content-scripts/content.js"]
+          "js": ["js/content.js"]
       }
   ],
   "web_accessible_resources": [
