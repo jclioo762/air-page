@@ -1,6 +1,6 @@
-import { get, post} from '@/utils/http'
+import { get, post, put, del } from '@/utils/http'
 
-export const getPosts = (params) => {
-    return get("https://jsonplaceholder.typicode.com/posts", params);
+export const getPosts = async (params) => {
+    return await get("https://jsonplaceholder.typicode.com/posts", params);
 }
 

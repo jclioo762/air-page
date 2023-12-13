@@ -5,8 +5,8 @@ import Home from '@views/Home.vue';
 
 // 2. 定义路由配置
 const routes = [
-  { path: "/",redirect: '/home' },
-  { path: "/home", name:"Home", component: Home },
+  // { path: "/",redirect: '/home' },
+  { path: "/", name:"Home", component: Home },
 ];
 
 // 3. 创建路由实例

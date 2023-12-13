@@ -53,10 +53,10 @@ export default defineConfig({
   //       ws: true,
   //       rewrite: (path) => path.replace(/^\/api/, '')
   //     }
-  //   }
+  //   
   // }
   build: {
-    outDir: '../page', // 打包文件的输出目录
+    outDir: 'page', // 打包文件的输出目录
     assetsDir: 'static', // 静态资源的存放目录
     assetsInlineLimit: 4096,
   }
